@@ -17,7 +17,7 @@
 	| **rr add [channel] &lt;msg\_id&gt; &lt;emoji&gt; &lt;role&gt;** | !rr add 458641514017587210 👼 @pure | Adds the emoji-role pair to the message and the database.<br>**NOTE:** This message id can belong to authors other than Carl-bot, and the same emoji can be used for different messages for different roles (useful for regional roles) |
 	| **rr addmany [channel] &lt;msg\_id&gt; &lt;emoji role...&gt;** | !rr addmany 458641514017587210 👼 @pure<br>💩 @fortnite<br>😁 @league of legends | Works like **!rr add** except it adds more than one role at a time.<br>**SEPARATE EACH EMOJI-ROLE PAIR WITH A NEW LINE USING:  ** ++shift+enter++ |
 	| **rr remove &lt;msg\_id&gt; &lt;role&gt;** | !rr remove 458641514017587210 @fortnite | Removes an emoji-reaction pair from the specified bot message. |
-	| **rr clear [msg\_id]** | !rr clear 458641514017587210 | If you specify a message id, it removes all the roles from the message, if you don't, it will remove **all** reaction roles from the server. |
+	| **rr clear [msg\_id]** | !rr clear 458641514017587210 | If you specify a message id, it removes all the roles from the message, i you don't, it will remove **all** reaction roles from the server. |
 	| **rr bl &lt;msg\_id&gt; &lt;roles...&gt;** | !rr bl 458641514017587210 Staff | Prevents members with this role from picking up roles from the message.  |
 	| **rr wl &lt;msg\_id&gt; &lt;roles...&gt;** | !rr wl 458641514017587210 Staff | Only members with one of these roles can pick up roles from the message. |
 	| **rr unbl &lt;msg\_id&gt;&lt;roles...&gt;** | !rr unbl 458641514017587210 Staff | Removes a blacklisted role from the indicated reaction role message allowing for the role to pick up new roles from the message. |
